@@ -22,9 +22,7 @@ public class ValidarCedulaEcuatorianaJavaNetbeans {
 
         Scanner entrada = new Scanner(System.in);
 
-//        System.out.println("Ingrese el numero de cédula");
-        String cedula = JOptionPane.showInputDialog("Ingrese el numero de cédula");
-//        String cedula = entrada.next();
+        String cedula = JOptionPane.showInputDialog("Ingrese su número de cédula");
         int c, suma = 0, acum, resta = 0;
 
         for (int i = 0; i < cedula.length() - 1; i++) {
@@ -47,11 +45,9 @@ public class ValidarCedulaEcuatorianaJavaNetbeans {
         int ultimo = Integer.parseInt(cedula.charAt(9) + "");
 
         if (ultimo == resta) {
-            JOptionPane.showMessageDialog(null, "la cédula ingresa es correcta");
-//            System.out.println("la cédula ingresa es correcta");
+            JOptionPane.showMessageDialog(null, "La cédula ingresada es correcta");
         } else {
-            JOptionPane.showMessageDialog(null, "la cédula ingresa es incorrecta");
-//            System.out.println("la cedula es incorrecta");
+            JOptionPane.showMessageDialog(null, "La cédula ingresada es incorrecta", "ERROR_MESSAGE", JOptionPane.ERROR_MESSAGE);
         }
 
     }
