@@ -1,2 +1,2 @@
-# Validar-Cedula-Ecuatoriana-Java-Netbeans
-Validar el número de cédula de un@ ciudadan@ de una país en este caso Ecuador
+# Validate-Ecuadorian-ID-Java-NetBeans
+Validate the ID number of a citizen of a country in this case Ecuador.
